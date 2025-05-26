@@ -1,0 +1,7 @@
+services:
+  bowling-buddy:
+    build: .
+    container_name: bowling-buddy-v1
+    volumes:
+      - ./:/app
+    command: ["python", "main.py"]
