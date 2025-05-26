@@ -1,6 +1,12 @@
-tensorflow==2.12.0        # For deep learning
-opencv-python-headless    # For video processing (headless for Docker)
-mediapipe==0.9.1          # For pose estimation (optional but useful)
-numpy==1.23.5             # For numerical operations
-matplotlib==3.7.1         # For visualizations
-tqdm==4.65.0              # For progress bars (optional)
+# tensorflow==2.13.0        # For deep learning
+# opencv-python-headless    # For video processing 
+# mediapipe==0.9.1          # For pose estimation (optional but useful)
+# numpy==1.23.5             # For numerical operations
+# matplotlib==3.7.1         # For visualizations
+# tqdm==4.65.0              # For progress bars (optional)
+tensorflow==2.13.0
+opencv-python-headless==4.7.0.72
+mediapipe==0.10.21
+numpy==1.24.3
+matplotlib==3.7.1
+tqdm==4.65.0
